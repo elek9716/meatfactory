@@ -1,0 +1,124 @@
+* {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+}
+.header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: rgb(30, 34, 37);
+}
+
+.logo {
+  border: dotted;
+  border-color: white;
+}
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5%;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  font-size: 80px;
+}
+
+.mainDiv {
+  color: white;
+
+  background-color: rgb(30, 34, 37);
+  line-height: 1.5;
+}
+.mainSubDiv h1 {
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.asd {
+  color: white;
+}
+.mainSubDiv {
+  margin: 0 0 0 0;
+  font-size: 32px;
+  font-weight: bold;
+  background-image: url("happybutcher.jpg");
+  background-size: cover;
+  justify-content: center;
+}
+.mainSubDiv p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.mainSubDiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin: 0 0 0 0;
+  background-color: white;
+}
+.ownerQuote {
+  color: black;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.prodExample {
+  text-align: center;
+  font-size: 24px;
+}
+.grid-item {
+  grid-column: span 0;
+}
+.grid-item img {
+  display: block;
+  height: 300px;
+  width: 300px;
+}
+.prodExampleGrid {
+  display: grid;
+  padding-left: 16%;
+  padding-bottom: 40px;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+}
+.titleContact {
+  font-size: 40px;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.contact p {
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
